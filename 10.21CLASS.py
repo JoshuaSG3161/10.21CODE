@@ -32,6 +32,12 @@ class SeriesResonantCircuit(ResonantCircuit):
     def __init__():
         super()
         
+    def Ser_EQN:
+        self._R = (1/self._k)
+        self._L = (self._R/self._b)
+        self._C = (1/((self._w**2)*(self._L)))
+        return self._L and self._C
+        
     def display():
         print()
 
